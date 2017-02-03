@@ -29,6 +29,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -41,6 +42,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextPID"
                     android:inputType="text"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -48,6 +50,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -60,6 +63,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editTextAge"
                     android:inputType="number"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -67,6 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.2">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -79,6 +84,7 @@
                     android:layout_height="wrap_content"
                     android:id="@+id/editPName"
                     android:inputType="text"/>
+
             </LinearLayout>
 
             <LinearLayout
@@ -86,6 +92,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="0.4">
+
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -98,6 +105,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:checkedButton="@+id/radioMale">
+
                     <RadioButton
                         android:text="@string/male"
                         android:layout_width="match_parent"
@@ -109,6 +117,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:id="@+id/radioFemale"/>
+
                 </RadioGroup>
 
             </LinearLayout>

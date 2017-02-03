@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
     protected void init(){
         String[] hlabels= new String[10];
         for (int i = 0; i < 10; i++) {
-            hlabels[i]=String.valueOf(i * 18);
+            hlabels[i]=String.valueOf((9 - i) * 18);
         }
 
         int k = 0;
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
                             k++;
                             Message msg = threadHandle.obtainMessage(1,Integer.toString(k));
                             threadHandle.sendMessage(msg);
-                            Thread.sleep(100);
+                            Thread.sleep(1000);
                         }
                     }
 
